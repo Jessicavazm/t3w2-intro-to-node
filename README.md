@@ -13,3 +13,16 @@ Scripts are commands written inside of the package.json to automatize tasks usin
 - Dependencies get installed in a folder called 'node_modules', which should be added to .gitignore file in VS code. 
 - When cloning a nodeJs project, you should run 'npm instal' to install it's dependencies since node_modules file is not usually placed in the git repository.
 - Dev Dependencies are packages that will not get included in production "builds" of an application, e.g of a dev dependency: Jest - JavaScript testing.
+
+
+### Try, catch, throw anf finally blocks
+After 'throw', the program goes straight to catch block. 
+
+    try {
+        // experimentation or execution
+        throw some error msg
+    } catch {
+        // statements
+    } finally {
+        // always runs
+    }
