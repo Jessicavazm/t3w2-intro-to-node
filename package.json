@@ -1,11 +1,12 @@
 {
   "name": "t3w2-intro-to-node",
   "version": "1.0.0",
-  "description": "Dice Rolling Application in the Terminal",
+  "description": "Dice Rolling application in the Terminal",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "check": "node src/index.js"
+    "dev": "nodemon src/index.js",
+    "docs": "jsdoc ./src/*"
   },
   "keywords": [
     "dice",
@@ -14,5 +15,12 @@
     "game"
   ],
   "author": "Jess",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.0.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4",
+    "nodemon": "^3.1.7"
+  }
 }
